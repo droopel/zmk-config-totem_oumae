@@ -29,6 +29,16 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
+
+        Copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <3 4>;
+        };
+
+        Paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <13 14>;
+        };
     };
 
     behaviors {
